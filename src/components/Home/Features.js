@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCalendarCheck, FaVideo, FaShieldAlt, FaMobileAlt, FaUserAlt, FaDollarSign, FaHeadset } from "react-icons/fa"; // Importing icons from react-icons
-import './../assets/css/FeaturesSection.css';  // Import the CSS file
+import './../../assets/css/Home/FeaturesSection.css';  // Import the CSS file
 
 const FeaturesSection = () => {
     const features = [

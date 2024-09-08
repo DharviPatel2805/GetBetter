@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../assets/imgs/home.png";
+import image from "./../../assets/imgs/home.png";
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './../assets/css/Slider.css';  // Import the CSS file
+import './../../assets/css/Home/Slider.css';  // Import the CSS file
 
 const Slider = () => {
     return (

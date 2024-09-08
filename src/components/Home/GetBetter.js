@@ -53,10 +53,10 @@
 
 import React from "react";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
-import image1 from "../assets/imgs/product2.jpeg";
-import image2 from "../assets/imgs/product1.jpeg"; 
-import image3 from "../assets/imgs/image_1.jpg";
-import "./../assets/css/GetBetter.css";
+import image1 from "./../../assets/imgs/product2.jpeg";
+import image2 from "./../../assets/imgs/product1.jpeg"; 
+import image3 from "./../../assets/imgs/image_1.jpg";
+import "./../../assets/css/Home/GetBetter.css";
 
 const GetBetter = () => {
     return (

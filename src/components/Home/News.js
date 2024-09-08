@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../assets/imgs/blog.png";
+import image from "./../../assets/imgs/blog.png";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import "./../assets/css/News.css"
+import "./../../assets/css/Home/News.css";
 
 // const News = () => {
 //     return (

@@ -81,10 +81,10 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
-import p1 from "../assets/imgs/person_1.jpg";
-import p2 from "../assets/imgs/person_2.jpg";
-import p3 from "../assets/imgs/person_3.jpg";
-import './../assets/css/Testimonial.css';  // Import the CSS file
+import p1 from "./../../assets/imgs/person_1.jpg";
+import p2 from "./../../assets/imgs/person_2.jpg";
+import p3 from "./../../assets/imgs/person_3.jpg";
+import './../../assets/css/Home/Testimonial.css';  // Import the CSS file
 
 const TestimonialSection = () => {
     const testimonials = [
