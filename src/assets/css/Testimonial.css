@@ -1,0 +1,60 @@
+/* TestimonialSection.css */
+
+.testimonial-section {
+    padding: 100px 80px;
+}
+
+.testimonial-heading {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: black;
+}
+
+.testimonial-card {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0.7px solid #414845;
+    margin-bottom: 16px;
+}
+
+.testimonial-review {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.testimonial-role {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.testimonial-rating {
+    color: #ffc107;
+    margin-top: 8px;
+}
+
+.cta-button {
+    background-color: #23A377;
+    color: white;
+    width: 400px;
+    padding: "12px 24px";
+    border-radius: 12px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: #23A377;
+}

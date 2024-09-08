@@ -1,0 +1,53 @@
+/* WhyChooseSection.css */
+
+.why-choose-section {
+    background-color: #F9F9F9;
+    padding: 80px 0;
+}
+
+.why-choose-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.why-choose-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E5E5E;
+    line-height: 24px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.why-choose-feature {
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.why-choose-feature-icon {
+    color: #C9EADA;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+
+.why-choose-feature-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.why-choose-image {
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px auto;
+}

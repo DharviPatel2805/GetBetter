@@ -1,0 +1,52 @@
+/* Slider Section */
+.slider-section {
+    padding: 100px 80px;
+}
+
+/* Text Section */
+.slider-text {
+    padding: 50px;
+}
+
+.slider-text h2 {
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.slider-text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c757d;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* Button Styles */
+.slider-buttons .btn-outline-success {
+    border-color: #23A377;
+    color: #23A377;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%; /* Full width for smaller screens */
+}
+
+.slider-buttons .btn-success {
+    border-color: #C9EADA;
+    color: white;
+    background-color: #23A377;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%; /* Full width for smaller screens */
+}
+
+/* Image Section */
+.slider-image img {
+    width: 100%;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}

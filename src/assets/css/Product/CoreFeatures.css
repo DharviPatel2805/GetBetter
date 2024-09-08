@@ -1,0 +1,66 @@
+/* CoreFeatures.css */
+
+.core-features-section {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+}
+
+.core-features-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.core-features-container {
+    display: flex;
+    justify-content: center;
+}
+
+.core-features-row {
+    width: 700px;
+}
+
+.feature-box {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E5;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-box-highlight {
+    background-color: #D1E8DA;
+}
+
+.feature-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+
+.core-features-description-section {
+    padding: 0px 84px;
+    text-align: left;
+    align-content: center;
+}
+
+.core-features-heading {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.core-features-description {
+    font-size: 24px;
+    color: #5E5E5E;
+}
+
+.core-features-image {
+    width: 400px;
+    height: 400px;
+}

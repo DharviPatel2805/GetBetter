@@ -1,0 +1,66 @@
+/* RecoverySection.css */
+
+.recovery-section {
+    background-color: #F3F3F3;
+    padding: 80px;
+}
+
+.recovery-container {
+    background-color: #C9EADA;
+    padding: 0px;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.recovery-content {
+    padding: 98px 112px;
+}
+
+.recovery-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.recovery-title-highlight {
+    color: #23A377;
+}
+
+.recovery-description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #5E5E5E;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.recovery-features {
+    padding: 98px 112px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.feature-circle {
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #23A377;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #23A377;
+    text-align: center;
+}

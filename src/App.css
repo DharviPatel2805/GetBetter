@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Poppins';
 }
 
 .App-logo {
@@ -35,4 +36,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.headerTop {
+  background-color: "#D4F1E3";
+  padding: "10px 0"
+}
+
+.navbarImg {
+  width: "60px";
+  height: "60px";
+  border-radius: "12px";
+}
+
+.navMain {
+  background-color: "white";
+  border-radius: "20px";
+  font-weight: 500;
+  font-size: "16px";
+  color: "#5E5E5E"
+}
+
+.navLink {
+  padding: "23px 12px";
+  color: "#5E5E5E";
+}
+
+.headerWhiteButton {
+  border-color: '#23A377';
+  color: '#23A377';
+  background-color: 'white';
+  border-radius: "10px";
+  padding: "10px"
+}
+
+.headerGreenButton {
+  border-color: '#C9EADA';
+  color: 'white';
+  background-color: "#23A377";
+  border-radius: "10px";
+  padding: "10px"
 }

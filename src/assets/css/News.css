@@ -1,0 +1,35 @@
+/* News.css */
+
+.news-section {
+    padding: 60px 0;
+}
+
+.news-heading {
+    font-weight: 500;
+    color: #222;
+}
+
+.news-subheading {
+    color: #6c757d;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.news-card {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.news-date {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.news-read-more-btn {
+    border-color: #23A377;
+    color: #23A377;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
