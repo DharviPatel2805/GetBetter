@@ -60,14 +60,14 @@
 .slider-image img {
     width: 100%;
     height: auto;
-    max-width: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 20px;
 }
 
 @media (min-width: 768px) {
     .slider-image img {
-        max-width: 600px;
+        width: 600px;
         height: 600px;
     }
 }
