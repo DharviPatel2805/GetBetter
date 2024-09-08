@@ -33,7 +33,7 @@ const Header = () => {
                         </Nav>
 
                         {/* Right-side buttons */}
-                        <div className="d-flex">
+                        <div className="d-flex justify-content-center">
                             <Button
                                 variant="outline-success"
                                 className="mr-2"

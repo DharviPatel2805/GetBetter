@@ -19,12 +19,14 @@ const Slider = () => {
                                 <Button
                                     variant="outline-success"
                                     className="m-1 col-6"
+                                    style={{borderColor: "#23A377", color: "#23A377"}}
                                 >
                                     Request Demo
                                 </Button>
                                 <Button
                                     variant="success"
                                     className="m-1 col-6"
+                                    style={{backgroundColor: "#23A377", color: "white"}}
                                 >
                                     Get Started
                                 </Button>

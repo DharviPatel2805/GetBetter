@@ -1,11 +1,17 @@
 /* Slider Section */
 .slider-section {
-    padding: 100px 80px;
+    padding: 50px 20px; /* Reduced padding for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .slider-section {
+        padding: 100px 80px;
+    }
 }
 
 /* Text Section */
 .slider-text {
-    padding: 50px;
+    padding: 30px; /* Reduced padding for smaller screens */
 }
 
 .slider-text h2 {
@@ -13,40 +19,55 @@
     color: #222;
     margin-bottom: 20px;
     text-align: left;
+}
 
+@media (min-width: 768px) {
+    .slider-text h2 {
+        text-align: left; /* Left-align for larger screens */
+    }
 }
 
 .slider-text p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 22px;
     color: #6c757d;
-    margin-bottom: 30px;
-    text-align: left;
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+@media (min-width: 768px) {
+    .slider-text p {
+        text-align: left; /* Left-align for larger screens */
+    }
 }
 
 /* Button Styles */
-.slider-buttons .btn-outline-success {
-    border-color: #23A377;
-    color: #23A377;
-    background-color: white;
+.slider-buttons .btn-outline-success,
+.slider-buttons .btn-success {
     border-radius: 10px;
     padding: 10px;
-    width: 100%; /* Full width for smaller screens */
+    width: 100%; /* Full width for all screen sizes */
 }
 
-.slider-buttons .btn-success {
-    border-color: #C9EADA;
-    color: white;
-    background-color: #23A377;
-    border-radius: 10px;
-    padding: 10px;
-    width: 100%; /* Full width for smaller screens */
+@media (min-width: 768px) {
+    .slider-buttons .btn-outline-success,
+    .slider-buttons .btn-success {
+        width: auto; /* Auto width for larger screens */
+    }
 }
 
 /* Image Section */
 .slider-image img {
     width: 100%;
-    width: 600px;
-    height: 600px;
+    height: auto;
+    max-width: 300px;
     object-fit: cover;
+    border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .slider-image img {
+        max-width: 600px;
+        height: 600px;
+    }
 }
